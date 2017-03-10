@@ -1,0 +1,10 @@
+Battery driven Pi Zero - What to choose?
+
+- 4x1.5V AA
+- 1x9V
+- 3x18650
+
+Anyways needs to convert power for the Pi to a steady 5V
+- S18V20F5 5V from 3-30V
+- DE-SW050 (with Voltage Regulator Breakout Board)
+
