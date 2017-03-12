@@ -1,13 +1,13 @@
 import sys
 
-sys.path.append("./MJS")
 
-import GPIO as gp 
+import MJS.GPIO as gp 
 
 import RPi.GPIO as GPIO
 import time
 
-GPIO.setmode(GPIO.BCM)
+
+sen1 = gp.IRSensor.IRSensor(5)
 
 ir = [5, 6, 13, 19]
 
@@ -23,4 +23,3 @@ while 1:
 	time.sleep(1)
 
 
-GPIO.cleanup()

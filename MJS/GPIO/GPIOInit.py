@@ -10,7 +10,5 @@ class MGP:
 
 
 print("including")
-
 x = MGP()
 
-print("ifsddsf")
